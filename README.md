@@ -18,6 +18,11 @@
 * IT(VLAN-40) And Board Of Directors(VLAN-30) And Voice(VLAN-70) And Wifi Guest(VLAN-90)--> CSW1 Root Secondary, CSW2 Root Primary 
 
 ## Layer 3 Links 
-* CSW1 - Firewall 100.0.1.0/30
-* CSW2 - Firewall 100.0.2.0/30
-* Dmz - Firewall 100.0.3.0/30
+* CSW1 - Firewall 10.1.0.0/30
+* CSW2 - Firewall 10.2.0.0/30
+* Dmz - Firewall 10.3.0.0/30
+* Firewall - ISP1 DHCP
+* Firewall - ISP2 DHCP
+
+## DHCP POOLS 
+*
