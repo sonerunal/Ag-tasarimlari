@@ -24,5 +24,5 @@
 * Firewall - ISP1 DHCP
 * Firewall - ISP2 DHCP
 
-## DHCP POOLS 
+## DHCP Pool
 *
