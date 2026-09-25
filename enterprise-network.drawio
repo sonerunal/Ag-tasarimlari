@@ -40,6 +40,9 @@
         <mxCell id="bRbF5Fwe0R1jzvTi4bSe-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;FW&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="-320" y="320" as="geometry" />
         </mxCell>
+        <mxCell id="RLAP6wipZRoE8FIi5peL-85" edge="1" parent="1" source="bRbF5Fwe0R1jzvTi4bSe-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="RLAP6wipZRoE8FIi5peL-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bRbF5Fwe0R1jzvTi4bSe-39" parent="1" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png" value="" vertex="1">
           <mxGeometry height="80" width="80" x="-330" y="244" as="geometry" />
         </mxCell>
@@ -316,7 +319,7 @@
         <mxCell id="RLAP6wipZRoE8FIi5peL-50" parent="RLAP6wipZRoE8FIi5peL-49" style="strokeColor=#ffffff;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.switches.layer_2_remote_switch;" value="" vertex="1">
           <mxGeometry height="50" width="101" as="geometry" />
         </mxCell>
-        <mxCell id="RLAP6wipZRoE8FIi5peL-51" parent="RLAP6wipZRoE8FIi5peL-49" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;DMZ&lt;/font&gt;" vertex="1">
+        <mxCell id="RLAP6wipZRoE8FIi5peL-51" parent="RLAP6wipZRoE8FIi5peL-49" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;SERVERS&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="10.5" y="50" as="geometry" />
         </mxCell>
         <mxCell id="RLAP6wipZRoE8FIi5peL-63" parent="1" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" value="" vertex="1">
@@ -363,6 +366,27 @@
         </mxCell>
         <mxCell id="RLAP6wipZRoE8FIi5peL-78" edge="1" parent="1" source="bRbF5Fwe0R1jzvTi4bSe-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="RLAP6wipZRoE8FIi5peL-69">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RLAP6wipZRoE8FIi5peL-79" edge="1" parent="1" source="bRbF5Fwe0R1jzvTi4bSe-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="RLAP6wipZRoE8FIi5peL-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RLAP6wipZRoE8FIi5peL-80" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="80" width="101" x="-340" y="-70" as="geometry" />
+        </mxCell>
+        <mxCell id="RLAP6wipZRoE8FIi5peL-81" parent="RLAP6wipZRoE8FIi5peL-80" style="strokeColor=#ffffff;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.switches.layer_2_remote_switch;" value="" vertex="1">
+          <mxGeometry height="50" width="101" as="geometry" />
+        </mxCell>
+        <mxCell id="RLAP6wipZRoE8FIi5peL-82" parent="RLAP6wipZRoE8FIi5peL-80" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;DMZ&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="10.5" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RLAP6wipZRoE8FIi5peL-83" parent="1" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" value="" vertex="1">
+          <mxGeometry height="98.87" width="78" x="-330" y="-380" as="geometry" />
+        </mxCell>
+        <mxCell id="RLAP6wipZRoE8FIi5peL-84" edge="1" parent="1" source="RLAP6wipZRoE8FIi5peL-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="RLAP6wipZRoE8FIi5peL-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RLAP6wipZRoE8FIi5peL-86" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;WLC&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="-68.3" y="720" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
