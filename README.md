@@ -14,6 +14,6 @@
 | 90 | Wi-Fi Corporate | 10.0.9.0/24 | 10.0.9.1 | 10.0.9.2 | 10.0.9.3
 | 100| Wi-Fi Guest | 10.0.10.0/24 | 10.0.10.1 | 10.0.10.2 | 10.0.10.3
 
-##STP Vlan Priority 
+## STP Vlan Load Balance 
 * Operations(VLAN-20) And QA (VLAN-50) --> CSW1 Root Primary, CSW2 Root Secondary
 * IT(VLAN-40) And Board Of Directors(VLAN-30) --> CSW1 Root Secondary, CSW2 Root Primary 
