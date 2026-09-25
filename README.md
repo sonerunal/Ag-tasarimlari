@@ -9,6 +9,11 @@
 | Hostname | İnterface | Ip Address | Default Gateway | Dns Server
 | ------------- | ------------- | ------------- | ------------- | -------------
 | SWK-1 | Vlan 10 | 10.0.1.4/24 | 10.0.1.1 | 10.0.6.4 
+| SWK-2 | Vlan 10 | 10.0.1.5/24 | 10.0.1.1 | 10.0.6.4 
+| SWK-3 | Vlan 10 | 10.0.1.6/24 | 10.0.1.1 | 10.0.6.4  
+| SERVERS | Vlan 10 | 10.0.1.7/24 | 10.0.1.1 | 10.0.6.4
+| DMZ | Vlan 10 | 10.0.1.8/24 | 10.0.1.1 | 10.0.6.4
+
 
 ## Vlan Database
 |  Vlan Number  | Vlan Name | Network Address | Virtual Ip | CSW1 Address | CSW2 Address 
