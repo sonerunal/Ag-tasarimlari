@@ -20,3 +20,4 @@
 ## Layer 3 Links 
 * CSW1 - Firewall 100.0.1.0/30
 * CSW2 - Firewall 100.0.2.0/30
+* Dmz - Firewall 100.0.3.0/30
