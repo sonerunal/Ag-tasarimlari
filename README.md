@@ -11,7 +11,7 @@
 | SWK-1 | Vlan 10 | 10.0.1.4/24 | 10.0.1.1 | 10.0.6.4 
 
 ## Vlan Database
-| Vlan Number  | Vlan Name | Network Address | Virtual Ip | CSW1 Address | CSW2 Address 
+|  Vlan Number  | Vlan Name | Network Address | Virtual Ip | CSW1 Address | CSW2 Address 
 | ------------- | ------------- | ------------- | -------------| -------------| -------------
 | 10  | Management  | 10.0.1.0/24 | 10.0.1.1 | 10.0.1.2 | 10.0.1.3 
 | 20  | Operations  | 10.0.2.0/24 | 10.0.2.1 | 10.0.2.2 | 10.0.2.3
