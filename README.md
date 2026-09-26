@@ -43,6 +43,8 @@
 * DNS Server - 10.0.6.4 255.255.255.0
 * Web Server - 10.3.0.2 255.255.255.252
 
+### Routing: CSW1-CSW2-FW arasında OSPF Area 0
+
 ## DHCP Pool 
 * Vlan 20 10.0.2.0/24 Exclude 10.0.2.1 - 10.0.2.3
 * Vlan 30 10.0.3.0/24 Exclude 10.0.3.1 - 10.0.3.3
