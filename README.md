@@ -44,6 +44,7 @@
 * Web Server - 10.3.0.2 255.255.255.252
 
 ### Routing: CSW1-CSW2-FW arasında OSPF Area 0
+### CSW1 <-> CSW2: Port-Channel 1 (LACP, Trunk)
 
 ## DHCP Pool 
 * Vlan 20 10.0.2.0/24 Exclude 10.0.2.1 - 10.0.2.3
