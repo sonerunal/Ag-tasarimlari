@@ -61,20 +61,7 @@
 * F0/1 - 3 --> Ip Phones
 
 ## Show vlan br at SWK-1
-SWK-1#show vlan br 
+SWK-1#show vlan br <img width="643" height="237" alt="image" src="https://github.com/user-attachments/assets/2b9e414e-e16e-46f8-98e0-6925b2bc0533" />
 
-VLAN Name                             Status    Ports
----- -------------------------------- --------- -------------------------------
-1    default                          active    Fa0/4, Fa0/5, Fa0/6, Fa0/7
-                                                Fa0/8, Fa0/9, Fa0/10, Fa0/11
-                                                Fa0/12, Fa0/13, Fa0/14, Fa0/15
-                                                Fa0/16, Fa0/17, Fa0/18, Fa0/19
-                                                Fa0/20, Fa0/21, Fa0/22, Fa0/23
-                                                Fa0/24, Gig0/1, Gig0/2
-10   Management                       active    
-20   operations                       active    Fa0/1
-40   it                               active    Fa0/2, Fa0/3
-1002 fddi-default                     active    
-1003 token-ring-default               active    
-1004 fddinet-default                  active    
-1005 trnet-default                    active    
+
+
