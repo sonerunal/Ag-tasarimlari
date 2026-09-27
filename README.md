@@ -61,7 +61,8 @@
 ## Access Switch 
 * F0/4 --> Access point 
 * F0/1 - 3 --> Ip Phones
-
+* G0/1 - 2 --> CSW1 - CSW2
+  
 ###  Show vlan and trunk ports at SWK-1
 <img width="649" height="264" alt="image" src="https://github.com/user-attachments/assets/7c76265a-e96b-4dff-95d1-dcc47c3d0fe0" />
 <img width="646" height="237" alt="image" src="https://github.com/user-attachments/assets/cbfd70f1-4f2c-42bb-926a-8c8da9a85151" />
