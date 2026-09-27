@@ -55,3 +55,7 @@
 * Vlan 70 10.0.7.0/24 Exclude 10.0.7.1 - 10.0.7.3
 * Vlan 80 10.0.8.0/24 Exclude 10.0.8.1 - 10.0.8.3
 * Vlan 90 10.0.9.0/24 Exclude 10.0.9.1 - 10.0.9.3
+
+## Access Switch 
+* F0/4 --> Access point 
+* F0/1 - 3 --> Ip Phones 
