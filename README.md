@@ -60,8 +60,8 @@
 * F0/4 --> Access point 
 * F0/1 - 3 --> Ip Phones
 
-## Show vlan br at SWK-1
-SWK-1#show vlan br <img width="643" height="237" alt="image" src="https://github.com/user-attachments/assets/2b9e414e-e16e-46f8-98e0-6925b2bc0533" />
+###  Show vlan br at SWK-1
+<img width="643" height="237" alt="image" src="https://github.com/user-attachments/assets/2b9e414e-e16e-46f8-98e0-6925b2bc0533" />
 
 
 
