@@ -29,6 +29,7 @@
 | 70 | Voice  | 10.0.7.0/24 | 10.0.7.1 | 10.0.7.2 | 10.0.7.3
 | 80 | Wi-Fi Corporate | 10.0.8.0/24 | 10.0.8.1 | 10.0.8.2 | 10.0.8.3
 | 90| Wi-Fi Guest | 10.0.9.0/24 | 10.0.9.1 | 10.0.9.2 | 10.0.9.3
+| 95| Ap-Management(CAPWAP) | 10.0.95.0/24 | 10.0.95.1 | 10.0.95.2 | 10.0.95.3
 
 ## STP Hsrp Redundancy 
 * Operations(VLAN-20) And QA (VLAN-50) And Servers(VLAN-60) And Wi-Fi Corporate(VLAN-80) --> CSW1 Root Primary, CSW2 Root Secondary
@@ -55,13 +56,17 @@
 * Vlan 70 10.0.7.0/24 Exclude 10.0.7.1 - 10.0.7.3
 * Vlan 80 10.0.8.0/24 Exclude 10.0.8.1 - 10.0.8.3
 * Vlan 90 10.0.9.0/24 Exclude 10.0.9.1 - 10.0.9.3
+* Vlan 95 10.0.95.0/24 Exclude 10.0.95.1 - 10.0.95.3
 
 ## Access Switch 
 * F0/4 --> Access point 
 * F0/1 - 3 --> Ip Phones
 
-###  Show vlan br at SWK-1
-<img width="643" height="237" alt="image" src="https://github.com/user-attachments/assets/2b9e414e-e16e-46f8-98e0-6925b2bc0533" />
+###  Show vlan and trunk ports at SWK-1
+<img width="649" height="264" alt="image" src="https://github.com/user-attachments/assets/7c76265a-e96b-4dff-95d1-dcc47c3d0fe0" />
+<img width="646" height="237" alt="image" src="https://github.com/user-attachments/assets/cbfd70f1-4f2c-42bb-926a-8c8da9a85151" />
+
+
 
 
 
