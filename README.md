@@ -67,6 +67,9 @@
 <img width="649" height="264" alt="image" src="https://github.com/user-attachments/assets/7c76265a-e96b-4dff-95d1-dcc47c3d0fe0" />
 <img width="646" height="237" alt="image" src="https://github.com/user-attachments/assets/cbfd70f1-4f2c-42bb-926a-8c8da9a85151" />
 
+### Between CSW1 and CSW2 layer 2 ether channel mode lcap active
+<img width="754" height="360" alt="image" src="https://github.com/user-attachments/assets/feac154f-e33e-4716-a48b-c20f843e6fff" />
+
 
 
 
