@@ -35,6 +35,8 @@
 * Operations(VLAN-20) And QA (VLAN-50) And Servers(VLAN-60) And Wi-Fi Corporate(VLAN-80), Ap-Management(Vlan-95)) --> CSW1 Root Primary, CSW2 Root Secondary
 * IT(VLAN-40) And Board Of Directors(VLAN-30) And Voice(VLAN-70) And Wifi Guest(VLAN-90)--> CSW1 Root Secondary, CSW2 Root Primary 
 
+<img width="753" height="266" alt="image" src="https://github.com/user-attachments/assets/ba04d307-3cab-4ed2-af63-d8eb18c1a46d" />
+
 ## Layer 3 Links 
 * CSW1 - Firewall 10.1.0.0/30
 * CSW2 - Firewall 10.2.0.0/30
