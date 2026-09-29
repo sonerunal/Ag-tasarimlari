@@ -31,7 +31,9 @@
 | 90| Wi-Fi Guest | 10.0.9.0/24 | 10.0.9.1 | 10.0.9.2 | 10.0.9.3
 | 95| Ap-Management(CAPWAP) | 10.0.95.0/24 | 10.0.95.1 | 10.0.95.2 | 10.0.95.3
 
-## STP Hsrp Redundancy 
+## Hsrp redundancy  
+|  CSW1 Active  | CSW2 Active 
+
 * Operations(VLAN-20) And QA (VLAN-50) And Servers(VLAN-60) And Wi-Fi Corporate(VLAN-80), Ap-Management(Vlan-95)) --> CSW1 Root Primary, CSW2 Root Secondary
 * IT(VLAN-40) And Board Of Directors(VLAN-30) And Voice(VLAN-70) And Wifi Guest(VLAN-90)--> CSW1 Root Secondary, CSW2 Root Primary 
 
