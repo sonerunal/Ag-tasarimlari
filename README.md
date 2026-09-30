@@ -40,7 +40,7 @@
 | Vlan 50 Active | Vlan 50 Standby 
 | Vlan 60 Active | Vlan 60 Standby 
 | Vlan 70 Standby | Vlan 70 Active
-| Vlan 80 Active | Vlan 20 Standby
+| Vlan 80 Active | Vlan 80 Standby
 | Vlan 90 Standby | Vlan 90 Active
 | Vlan 95 Active | Vlan 95 Standby 
 
