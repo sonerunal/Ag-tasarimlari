@@ -35,9 +35,14 @@
 |  CSW1  | CSW2  
 | ------------- | ------------- 
 | Vlan 20 Active | Vlan 20 Standby 
-
-* Operations(VLAN-20) And QA (VLAN-50) And Servers(VLAN-60) And Wi-Fi Corporate(VLAN-80), Ap-Management(Vlan-95)) --> CSW1 Root Primary, CSW2 Root Secondary
-* IT(VLAN-40) And Board Of Directors(VLAN-30) And Voice(VLAN-70) And Wifi Guest(VLAN-90)--> CSW1 Root Secondary, CSW2 Root Primary 
+| Vlan 30 Standby | Vlan 30 Active
+| Vlan 40 Standby | Vlan 40 Active
+| Vlan 50 Active | Vlan 50 Standby 
+| Vlan 60 Active | Vlan 60 Standby 
+| Vlan 70 Standby | Vlan 70 Active
+| Vlan 80 Active | Vlan 20 Standby
+| Vlan 90 Standby | Vlan 90 Active
+| Vlan 95 Active | Vlan 95 Standby 
 
 <img width="753" height="266" alt="image" src="https://github.com/user-attachments/assets/ba04d307-3cab-4ed2-af63-d8eb18c1a46d" />
 
