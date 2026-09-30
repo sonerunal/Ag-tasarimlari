@@ -31,7 +31,7 @@
 | 90| Wi-Fi Guest | 10.0.9.0/24 | 10.0.9.1 | 10.0.9.2 | 10.0.9.3
 | 95| Ap-Management(CAPWAP) | 10.0.95.0/24 | 10.0.95.1 | 10.0.95.2 | 10.0.95.3
 
-## Hsrp redundancy  
+## Hsrp redundancy and Spanning tree root bridge
 |  CSW1  | CSW2  
 | ------------- | ------------- 
 | Vlan 20 Active | Vlan 20 Standby 
