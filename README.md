@@ -80,8 +80,6 @@
 <img width="754" height="360" alt="image" src="https://github.com/user-attachments/assets/feac154f-e33e-4716-a48b-c20f843e6fff" />
 
 ### Ospf command 
-R1 --> 
-R1 --> 
 CSW1 --> Network 10.1.0.2 0.0.0.0 area 0
 CSW2 --> Network 10.2.0.2 0.0.0.0 area 0
 
