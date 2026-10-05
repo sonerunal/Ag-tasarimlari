@@ -47,11 +47,10 @@
 <img width="753" height="266" alt="image" src="https://github.com/user-attachments/assets/ba04d307-3cab-4ed2-af63-d8eb18c1a46d" />
 
 ## Layer 3 Links 
-* CSW1 - Firewall 10.1.0.0/30
-* CSW2 - Firewall 10.2.0.0/30
-* Dmz - Firewall 10.3.0.0/30
-* Firewall - ISP1 DHCP
-* Firewall - ISP2 DHCP
+* CSW1 - R1 10.1.0.0/30
+* CSW2 - R1 10.2.0.0/30
+* R1 - ISP1 DHCP
+* R1 - ISP2 DHCP
 * DNS Server - 10.0.6.4 255.255.255.0
 * Web Server - 10.3.0.2 255.255.255.252
 
