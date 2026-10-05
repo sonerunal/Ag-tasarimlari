@@ -111,3 +111,7 @@ ip nat inside source list 11 interface G9/0 overload
 | 80 | 10 | 100
 | 90 | 100 | 10
 | 1 | 10 | 100
+
+### CSW1 and CSW2 
+passive-interface default 
+no passive interface g0/1 (to R1 interface)
