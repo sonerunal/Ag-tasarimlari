@@ -15,7 +15,7 @@
 | SWK-3 | Vlan 10 | 10.0.1.6/24 | 10.0.1.1 | 10.0.6.4  
 | SERVERS | Vlan 10 | 10.0.1.7/24 | 10.0.1.1 | 10.0.6.4
 | DMZ | Vlan 10 | 10.0.1.8/24 | 10.0.1.1 | 10.0.6.4
-
+| WLC | Vlan 1 | 10.0.0.0/24 | 10.0.0.1 | 10.0.6.4
 
 ## Vlan Database
 |  Vlan Number  | Vlan Name | Network Address | Virtual Ip | CSW1 Address | CSW2 Address 
@@ -28,8 +28,8 @@
 | 60  | Servers  | 10.0.6.0/24 | 10.0.6.1 | 10.0.6.2 | 10.0.6.3 
 | 70 | Voice  | 10.0.7.0/24 | 10.0.7.1 | 10.0.7.2 | 10.0.7.3
 | 80 | Wi-Fi Corporate | 10.0.8.0/24 | 10.0.8.1 | 10.0.8.2 | 10.0.8.3
-| 90| Wi-Fi Guest | 10.0.9.0/24 | 10.0.9.1 | 10.0.9.2 | 10.0.9.3
-| 95| Ap-Management(CAPWAP) | 10.0.95.0/24 | 10.0.95.1 | 10.0.95.2 | 10.0.95.3
+| 90 | Wi-Fi Guest | 10.0.9.0/24 | 10.0.9.1 | 10.0.9.2 | 10.0.9.3
+| 1 | Ap-Management(CAPWAP) | 10.0.0.0/24 | 10.0.0.1 | 10.0.0.2 | 10.0.0.3
 
 ## Hsrp redundancy and Spanning tree root bridge
 |  CSW1  | CSW2  
@@ -42,7 +42,7 @@
 | Vlan 70 Standby | Vlan 70 Active
 | Vlan 80 Active | Vlan 80 Standby
 | Vlan 90 Standby | Vlan 90 Active
-| Vlan 95 Active | Vlan 95 Standby 
+| Vlan 1 Active | Vlan 1 Standby 
 
 <img width="753" height="266" alt="image" src="https://github.com/user-attachments/assets/ba04d307-3cab-4ed2-af63-d8eb18c1a46d" />
 
@@ -66,7 +66,7 @@
 * Vlan 70 10.0.7.0/24 Exclude 10.0.7.1 - 10.0.7.10
 * Vlan 80 10.0.8.0/24 Exclude 10.0.8.1 - 10.0.8.10
 * Vlan 90 10.0.9.0/24 Exclude 10.0.9.1 - 10.0.9.10
-* Vlan 95 10.0.95.0/24 Exclude 10.0.95.1 - 10.0.95.10
+* Vlan 95 10.0.0.0/24 Exclude 10.0.0.1 - 10.0.0.10
 
 ## Access Switch 
 * F0/4 --> Access point 
