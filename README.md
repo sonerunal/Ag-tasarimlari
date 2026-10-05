@@ -115,3 +115,10 @@ ip nat inside source list 11 interface G9/0 overload
 ### CSW1 and CSW2 
 passive-interface default 
 no passive interface g0/1 (to R1 interface)
+
+## Syslog and Ntp 
+ntp server 10.0.6.5
+logging host 10.0.6.5
+logging on 
+logging trap debugging 
+service timestamps log datetime msec
