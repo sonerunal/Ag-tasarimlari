@@ -80,12 +80,24 @@
 <img width="754" height="360" alt="image" src="https://github.com/user-attachments/assets/feac154f-e33e-4716-a48b-c20f843e6fff" />
 
 ### Ospf command 
-R1 --> Network 10.1.0.1 0.0.0.0 area 0
-R1 --> Network 10.2.0.1 0.0.0.0 area 0
+R1 --> 
+R1 --> 
 CSW1 --> Network 10.1.0.2 0.0.0.0 area 0
 CSW2 --> Network 10.2.0.2 0.0.0.0 area 0
 
-
-
+## R1(ASBR) Configuration 
+### Default static routes 
+ip route 0.0.0.0 0.0.0.0 203.0.113.1 (via isp1) 
+ip route 0.0.0.0 0.0.0.0 203.0.112.1 5 (via isp2)
+### Ospf Command
+Network 10.2.0.1 0.0.0.0 area 0
+Network 10.1.0.1 0.0.0.0 area 0 
+Default information orginate
+### Nat Command
+int G6/0 - G7/0 --> ip nat inside 
+int G8/0 - G9/0 --> ip nat outside 
+access list 10 permit 10.0.0.0 0.0.0.255  
+ip nat inside source list 10 interface G8/0 overload 
+ip nat inside source list 10 interface G9/0 overload
 
 
