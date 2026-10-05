@@ -100,6 +100,7 @@ ip nat inside source list 10 interface G8/0 overload
 ip nat inside source list 11 interface G9/0 overload
 
 ## Router ospf cost 
+
 | Vlan |  CSW1 | CSW2 
-| ------------- | ------------- 
+| ------------- | -------------  | ------------- 
 | 50 | 10 | 100  
