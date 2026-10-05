@@ -95,7 +95,8 @@ Default information orginate
 int G6/0 - G7/0 --> ip nat inside 
 int G8/0 - G9/0 --> ip nat outside 
 access list 10 permit 10.0.0.0 0.0.0.255  
+access list 11 permit 10.0.0.0 0.0.0.255  
 ip nat inside source list 10 interface G8/0 overload 
-ip nat inside source list 10 interface G9/0 overload
+ip nat inside source list 11 interface G9/0 overload
 
 
