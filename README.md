@@ -134,3 +134,13 @@ ip access-list extended 101
 permit vlan 40 for ssh 
 deny other vlans for ssh 
 permit ip any any 
+
+## Security 
+access switch --> end host 
+spanning-tree portfast 
+spanning-tree bpduguard enable
+
+dhcp snooping 
+all switches activated 
+trusted uplink ports
+untrusted user ports
