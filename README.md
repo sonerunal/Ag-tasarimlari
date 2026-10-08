@@ -14,7 +14,6 @@
 | SWK-2 | Vlan 10 | 10.0.1.5/24 | 10.0.1.1 | 10.0.6.4 
 | SWK-3 | Vlan 10 | 10.0.1.6/24 | 10.0.1.1 | 10.0.6.4  
 | SERVERS | Vlan 10 | 10.0.1.7/24 | 10.0.1.1 | 10.0.6.4
-| DMZ | Vlan 10 | 10.0.1.8/24 | 10.0.1.1 | 10.0.6.4
 | WLC | Vlan 1 | 10.0.0.0/24 | 10.0.0.1 | 10.0.6.4
 
 ## Vlan Database
@@ -130,3 +129,5 @@ permit dns
 permit ntp 
 deny any to host 10.0.6.5(server)
 permit ip any any 
+
+i
