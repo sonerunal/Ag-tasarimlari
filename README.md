@@ -122,3 +122,10 @@ logging host 10.0.6.5
 logging on 
 logging trap debugging 
 service timestamps log datetime msec
+
+## ACL
+ip access-list extended 100 
+permit dns 
+permit ntp 
+deny any to host 10.0.6.5(server)
+permit ip any any 
