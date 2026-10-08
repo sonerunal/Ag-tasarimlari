@@ -130,4 +130,7 @@ permit ntp
 deny any to host 10.0.6.5(server)
 permit ip any any 
 
-i
+ip access-list extended 101 
+permit vlan 40 for ssh 
+deny other vlans for ssh 
+permit ip any any 
