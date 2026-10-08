@@ -30,6 +30,7 @@
 | 80 | Wi-Fi Corporate | 10.0.8.0/24 | 10.0.8.1 | 10.0.8.2 | 10.0.8.3
 | 90 | Wi-Fi Guest | 10.0.9.0/24 | 10.0.9.1 | 10.0.9.2 | 10.0.9.3
 | 1 | Ap-Management(CAPWAP) | 10.0.0.0/24 | 10.0.0.1 | 10.0.0.2 | 10.0.0.3
+| 100 | Transit-Voice | 10.100.100.0/30 | - | - | -
 
 ## Hsrp redundancy and Spanning tree root bridge
 |  CSW1  | CSW2  
